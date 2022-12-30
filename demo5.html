@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\ 
+    <script>
+     function abc (){
+     fname=document.getElementById('fname').value;
+     lname=document.getElementById('lname').value;
+     fullname = fname + lname
+     document.getElementById('fullname').value=fullname;
+//   alert("hi my name is :"+ fullname)
+
+     }
+    </script>
+</head>
+<body>
+    
+</body>
+  <marquee onmouseover= "stop()" onmouseout = "start()" ><h1>HI welcome TO ROG GAMING .......</h1></marquee>
+  
+  first name : <input type="text" id="fname"><br>
+  last name : <input type="text" id="lname"><br>
+  fullname name : <input type="text" id="fullname"><br>
+
+  <input type="button" value="click" onclick="abc()">
+</html>
